@@ -9,6 +9,7 @@ print(f"Here's your file {filename}:")
 # .read seems to automatically parse the text file and return the documents contents
 print(txt.read())
 # printing the prompt and then accepting a new argument of the user input
+txt.close()
 print("Type the filename again:")
 file_again = input("> ")
 # reading the new arguement passed and still opening a file, this is a refactor that allowed me to remove a line of code and just chain .read to it.
