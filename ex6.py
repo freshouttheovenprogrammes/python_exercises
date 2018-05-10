@@ -6,7 +6,7 @@ x = f"There are {types_of_people} types of people." # 1/4
 binary = "binary"
 do_not = "don't"
 # again, setting a var using string interp
-y = f"Those who know {binary} and those who {do_not}." # 2/4
+y = f"'Those who know {binary} and those who {do_not}.'" # 2/4
 # now we are printing both vars. that used string interp
 print(x)
 print(y)
