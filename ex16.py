@@ -9,7 +9,8 @@ print("Opening the file...")
 target = open(filename, 'w') # passing the 'w' lets us write to the file
 
 print("Truncating the file. Goodbye!")
-target.truncate() # this is cool because it basically deletes everything in there so I can overwrite it!
+# target.truncate() # this is cool because it basically deletes everything in there so I can overwrite it!
+# Its also not needed since the arguement of 'w' in open just replaces it anyways!!
 
 print("Now I'm going to ask you for three lines.")
 #
